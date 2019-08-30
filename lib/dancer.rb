@@ -5,7 +5,7 @@ class Dancer
   include 
   FancyDance::InstanceMethods
   extend
-  
+  FancyDance::InstanceMethods
  
   attr_accessor :name
  
